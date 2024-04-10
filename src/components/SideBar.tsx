@@ -6,7 +6,7 @@ import text from "/moralis-text.svg";
 export default component$(() => {
 
   return (
-    <aside class="hidden md:flex flex-col h-full left-0 top-0 w-[17.5rem] z-20 overflow-visible sticky bg-[#0f253d]">
+    <aside class="hidden lg:flex flex-col h-full left-0 top-0 w-[17.5rem] z-20 overflow-visible sticky bg-[#0f253d]">
 
       {/* TOP */}
       <div class="flex flex-shrink-0 justify-center items-center h-[4.375rem]">
@@ -137,7 +137,7 @@ export default component$(() => {
         <div>
           <div class="flex flex-col px-4 pb-4 gap-3">
             <div>
-              <button class="w-full h-12 relative flex justify-center items-center text-center font-medium text-[1rem] leading-4 rounded-lg gap-2 px-4 cursor-pointer select-none text-[#85b3db] border-2 border-[#2e628e] hover:text-[#bbdbf7] hover:border-[#6286b7]">
+              <button class="w-full h-12 relative flex justify-center items-center text-center font-semibold text-[1rem] leading-4 rounded-lg gap-2 px-4 cursor-pointer select-none text-[#85b3db] border-2 border-[#2e628e] hover:text-[#bbdbf7] hover:border-[#6286b7]">
                 <span class="fa-solid fa-arrow-right" />
                 Start Trial
               </button>

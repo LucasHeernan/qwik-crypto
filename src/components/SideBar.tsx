@@ -34,7 +34,7 @@ export default component$(() => {
 
               <li class="w-full relative">
                 <div>
-                  <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5 font-normal text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] bg-[#0d2035]">
+                  <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5  text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] bg-[#0d2035]">
                     <span class="flex flex-grow items-center gap-3">
                       <span class="flex items-center justify-center">
                         <span class="fa-solid fa-chart-simple"/>
@@ -48,7 +48,7 @@ export default component$(() => {
               
               <li class="w-full relative">
                 <div>
-                  <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5 font-normal text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] hover:bg-[#132a44]">
+                  <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5  text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] hover:bg-[#132a44]">
                     <span class="flex flex-grow items-center gap-3">
                       <span class="flex items-center justify-center">
                         <span class="fa-solid fa-book"/>
@@ -62,7 +62,7 @@ export default component$(() => {
 
               <li class="w-full relative">
                 <div>
-                <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5 font-normal text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] hover:bg-[#132a44]">
+                <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5  text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] hover:bg-[#132a44]">
                   <span class="flex flex-grow items-center gap-3">
                     <span class="flex items-center justify-center">
                       <span class="fa-regular fa-heart"/>
@@ -76,7 +76,7 @@ export default component$(() => {
 
               <li class="w-full relative">
                 <div>
-                  <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5 font-normal text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] hover:bg-[#132a44]">
+                  <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5  text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] hover:bg-[#132a44]">
                     <span class="flex flex-grow items-center gap-3">
                       <span class="flex items-center justify-center">
                         <span class="fa-solid fa-book-open-reader"/>
@@ -90,7 +90,7 @@ export default component$(() => {
 
               <li class="w-full relative">
                 <div>
-                <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5 font-normal text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] hover:bg-[#132a44]">
+                <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5 text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] hover:bg-[#132a44]">
                   <span class="flex flex-grow items-center gap-3">
                     <span class="flex items-center justify-center">
                       <span class="fa-solid fa-coins" />
@@ -104,7 +104,7 @@ export default component$(() => {
 
               <li class="w-full relative">
                 <div>
-                <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5 font-normal text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] hover:bg-[#132a44]">
+                <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5 text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] hover:bg-[#132a44]">
                   <span class="flex flex-grow items-center gap-3">
                     <span class="flex items-center justify-center">
                       <span class="fa-solid fa-gear" />
@@ -118,7 +118,7 @@ export default component$(() => {
 
               <li class="w-full relative">
                 <div>
-                <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5 font-normal text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] hover:bg-[#132a44]">
+                <button class="relative flex items-center justify-start w-full h-[3.25rem] py-3 px-5 text-[1.125rem] leading-6 rounded-lg cursor-pointer select-none text-[#f0f8ff] fill-[#f0f8ff] hover:bg-[#132a44]">
                   <span class="flex flex-grow items-center gap-3">
                     <span class="flex items-center justify-center">
                       <span class="fa-solid fa-code"/>
@@ -137,7 +137,7 @@ export default component$(() => {
         <div>
           <div class="flex flex-col px-4 pb-4 gap-3">
             <div>
-              <button class="w-full h-12 relative flex justify-center items-center text-center font-semibold text-[1rem] leading-4 rounded-lg gap-2 px-4 cursor-pointer select-none text-[#85b3db] border-2 border-[#2e628e] hover:text-[#bbdbf7] hover:border-[#6286b7]">
+              <button style={{fontFamily: "IBM media"}} class="w-full h-12 relative flex justify-center items-center text-center text-[1rem] leading-4 rounded-lg gap-2 px-4 cursor-pointer select-none text-[#85b3db] border-2 border-[#2e628e] hover:text-[#bbdbf7] hover:border-[#6286b7]">
                 <span class="fa-solid fa-arrow-right" />
                 Start Trial
               </button>
